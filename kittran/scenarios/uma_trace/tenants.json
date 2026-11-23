@@ -1,0 +1,36 @@
+{
+  "tenants": [
+    {
+      "id": "tenant_A",
+      "name": "Premium Video (eMBB)",
+      "initial_intent_mbps": 100.0,
+      "min_acceptable_mbps": 20.0,
+      "utility_weight": 1.0,
+      "willingness_to_pay": 0.9,
+      "description": "High-bandwidth video streaming tenant; values throughput highly and is reluctant to drop below its minimum."
+    },
+    {
+      "id": "tenant_B",
+      "name": "Fleet Telemetry (mMTC)",
+      "initial_intent_mbps": 50.0,
+      "min_acceptable_mbps": 10.0,
+      "utility_weight": 0.6,
+      "willingness_to_pay": 0.5,
+      "description": "Moderate-rate vehicle telemetry tenant; flexible, will compromise to save cost."
+    },
+    {
+      "id": "tenant_C",
+      "name": "Best-Effort IoT",
+      "initial_intent_mbps": 10.0,
+      "min_acceptable_mbps": 2.0,
+      "utility_weight": 0.3,
+      "willingness_to_pay": 0.2,
+      "description": "Low-rate, highly cost-sensitive IoT tenant; happy to switch the RAN off when QoS is poor."
+    }
+  ],
+  "ran": {
+    "total_prb": 100,
+    "bandwidth_mhz": 20,
+    "max_achievable_mbps_per_prb_at_max_mcs": 1.2
+  }
+}

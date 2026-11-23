@@ -1,0 +1,14 @@
+{
+  "description": "The seam between Tier 2 (intent) and Tier 1 (RRM). One tenant owns one slice; a slice owns one or more UEs. This is the smallest binding that makes AGIRAN's tenant model and AgentRAN's slice/UE model true at once, and it mirrors 3GPP network slicing where a tenant is an S-NSSAI customer.",
+  "tenants": {
+    "tenant_A": {
+      "slice": "FWA"
+    },
+    "tenant_B": {
+      "slice": "MTC"
+    },
+    "tenant_C": {
+      "slice": "BE"
+    }
+  }
+}

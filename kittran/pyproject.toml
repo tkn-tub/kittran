@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "symbiotic-ran"
+version = "0.1.0"
+description = "A three-tier agentic RAN simulation: multi-tenant SLA negotiation (AGI-RAN Type II) feeding an intent-decomposing RRM agent stack (AgentRAN), enforced by a fast deterministic PRB/scheduler loop, with a Reflection critic over every role."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["6G", "O-RAN", "LLM agents", "LangGraph", "network slicing", "SLA negotiation", "reflection"]
+
+dependencies = [
+    "langgraph>=0.2",
+    "langchain-core>=0.3",
+    "langchain-ollama>=0.2",
+    "langchain-openai>=0.2",
+    "pydantic>=2.5",
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+    "httpx>=0.24",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "ruff>=0.6"]
+
+[project.scripts]
+symbiotic-ran = "symbiotic_ran.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "SIM", "BLE"]
+ignore = ["E501"]
+
+[tool.ruff.format]
+quote-style = "double"

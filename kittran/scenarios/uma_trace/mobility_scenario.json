@@ -1,0 +1,85 @@
+{
+  "phases": [
+    {
+      "phase": 1,
+      "label": "uma_1",
+      "trigger_at_step": 0,
+      "mcs_index": 24,
+      "event": "A 10-second segment of the UMa route. The channel comes from the trace, not from this phase.",
+      "note": "Phases only mark time here and renegotiate every 10 s; mcs_index is a fallback used only if the trace is missing, and the logged base MCS is computed from the traced ceilings instead."
+    },
+    {
+      "phase": 2,
+      "label": "uma_2",
+      "trigger_at_step": 10,
+      "mcs_index": 24,
+      "event": "A 10-second segment of the UMa route. The channel comes from the trace, not from this phase.",
+      "note": "Phases only mark time here and renegotiate every 10 s; mcs_index is a fallback used only if the trace is missing, and the logged base MCS is computed from the traced ceilings instead."
+    },
+    {
+      "phase": 3,
+      "label": "uma_3",
+      "trigger_at_step": 20,
+      "mcs_index": 24,
+      "event": "A 10-second segment of the UMa route. The channel comes from the trace, not from this phase.",
+      "note": "Phases only mark time here and renegotiate every 10 s; mcs_index is a fallback used only if the trace is missing, and the logged base MCS is computed from the traced ceilings instead."
+    },
+    {
+      "phase": 4,
+      "label": "uma_4",
+      "trigger_at_step": 30,
+      "mcs_index": 24,
+      "event": "A 10-second segment of the UMa route. The channel comes from the trace, not from this phase.",
+      "note": "Phases only mark time here and renegotiate every 10 s; mcs_index is a fallback used only if the trace is missing, and the logged base MCS is computed from the traced ceilings instead."
+    },
+    {
+      "phase": 5,
+      "label": "uma_5",
+      "trigger_at_step": 40,
+      "mcs_index": 24,
+      "event": "A 10-second segment of the UMa route. The channel comes from the trace, not from this phase.",
+      "note": "Phases only mark time here and renegotiate every 10 s; mcs_index is a fallback used only if the trace is missing, and the logged base MCS is computed from the traced ceilings instead."
+    },
+    {
+      "phase": 6,
+      "label": "uma_6",
+      "trigger_at_step": 50,
+      "mcs_index": 24,
+      "event": "A 10-second segment of the UMa route. The channel comes from the trace, not from this phase.",
+      "note": "Phases only mark time here and renegotiate every 10 s; mcs_index is a fallback used only if the trace is missing, and the logged base MCS is computed from the traced ceilings instead."
+    },
+    {
+      "phase": 7,
+      "label": "uma_7",
+      "trigger_at_step": 60,
+      "mcs_index": 24,
+      "event": "A 10-second segment of the UMa route. The channel comes from the trace, not from this phase.",
+      "note": "Phases only mark time here and renegotiate every 10 s; mcs_index is a fallback used only if the trace is missing, and the logged base MCS is computed from the traced ceilings instead."
+    },
+    {
+      "phase": 8,
+      "label": "uma_8",
+      "trigger_at_step": 70,
+      "mcs_index": 24,
+      "event": "A 10-second segment of the UMa route. The channel comes from the trace, not from this phase.",
+      "note": "Phases only mark time here and renegotiate every 10 s; mcs_index is a fallback used only if the trace is missing, and the logged base MCS is computed from the traced ceilings instead."
+    },
+    {
+      "phase": 9,
+      "label": "uma_9",
+      "trigger_at_step": 80,
+      "mcs_index": 24,
+      "event": "A 10-second segment of the UMa route. The channel comes from the trace, not from this phase.",
+      "note": "Phases only mark time here and renegotiate every 10 s; mcs_index is a fallback used only if the trace is missing, and the logged base MCS is computed from the traced ceilings instead."
+    },
+    {
+      "phase": 10,
+      "label": "uma_10",
+      "trigger_at_step": 90,
+      "mcs_index": 24,
+      "event": "A 10-second segment of the UMa route. The channel comes from the trace, not from this phase.",
+      "note": "Phases only mark time here and renegotiate every 10 s; mcs_index is a fallback used only if the trace is missing, and the logged base MCS is computed from the traced ceilings instead."
+    }
+  ],
+  "total_steps": 100
+}
