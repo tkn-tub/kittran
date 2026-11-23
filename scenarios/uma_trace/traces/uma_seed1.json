@@ -1,0 +1,2747 @@
+{
+  "meta": {
+    "model": "3GPP TR 38.901 UMa, large-scale (path loss, LoS, shadow fading)",
+    "seed": 1,
+    "carrier_hz": 3500000000.0,
+    "bandwidth_hz": 20000000.0,
+    "ue_tx_dbm": 23.0,
+    "bs_gain_dbi": 8.0,
+    "noise_dbm": -95.99,
+    "ceiling_cap_db": 18.0,
+    "speed_mps": 10.0,
+    "steps": 100,
+    "step_s": 1.0,
+    "layout": {
+      "fwa_1": {
+        "start": [
+          150.0,
+          120.0
+        ],
+        "direction": 0
+      },
+      "fwa_2": {
+        "start": [
+          -350.0,
+          200.0
+        ],
+        "direction": 0
+      },
+      "mtc_1": {
+        "start": [
+          -500.0,
+          40.0
+        ],
+        "direction": 1
+      },
+      "iot_1": {
+        "start": [
+          500.0,
+          -40.0
+        ],
+        "direction": -1
+      }
+    }
+  },
+  "steps": [
+    {
+      "step": 0,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 1.2,
+        "iot_1": -0.79
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 1.2,
+        "iot_1": -0.79
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 501.6,
+        "iot_1": 501.6
+      }
+    },
+    {
+      "step": 1,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 1.14,
+        "iot_1": -0.98
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 1.14,
+        "iot_1": -0.98
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 491.6,
+        "iot_1": 491.6
+      }
+    },
+    {
+      "step": 2,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 9.79,
+        "iot_1": -3.44
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 9.79,
+        "iot_1": -3.44
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 481.7,
+        "iot_1": 481.7
+      }
+    },
+    {
+      "step": 3,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 14.07,
+        "iot_1": -2.12
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 14.07,
+        "iot_1": -2.12
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 471.7,
+        "iot_1": 471.7
+      }
+    },
+    {
+      "step": 4,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 8.49,
+        "iot_1": -6.95
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 8.49,
+        "iot_1": -6.95
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 461.7,
+        "iot_1": 461.7
+      }
+    },
+    {
+      "step": 5,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 5.84,
+        "iot_1": -2.48
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 5.84,
+        "iot_1": -2.48
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 451.8,
+        "iot_1": 451.8
+      }
+    },
+    {
+      "step": 6,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 4.61,
+        "iot_1": -6.3
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 4.61,
+        "iot_1": -6.3
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 441.8,
+        "iot_1": 441.8
+      }
+    },
+    {
+      "step": 7,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 7.64,
+        "iot_1": -1.97
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 7.64,
+        "iot_1": -1.97
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 431.9,
+        "iot_1": 431.9
+      }
+    },
+    {
+      "step": 8,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 4.72,
+        "iot_1": -0.74
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 4.72,
+        "iot_1": -0.74
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 421.9,
+        "iot_1": 421.9
+      }
+    },
+    {
+      "step": 9,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -1.69,
+        "iot_1": -1.46
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -1.69,
+        "iot_1": -1.46
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 411.9,
+        "iot_1": 411.9
+      }
+    },
+    {
+      "step": 10,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 3.5,
+        "iot_1": -7.8
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 3.5,
+        "iot_1": -7.8
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 402.0,
+        "iot_1": 402.0
+      }
+    },
+    {
+      "step": 11,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 3.56,
+        "iot_1": -8.91
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 3.56,
+        "iot_1": -8.91
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 392.0,
+        "iot_1": 392.0
+      }
+    },
+    {
+      "step": 12,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 5.25,
+        "iot_1": -5.25
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 5.25,
+        "iot_1": -5.25
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 382.1,
+        "iot_1": 382.1
+      }
+    },
+    {
+      "step": 13,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 3.97,
+        "iot_1": -8.03
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 3.97,
+        "iot_1": -8.03
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 372.2,
+        "iot_1": 372.2
+      }
+    },
+    {
+      "step": 14,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 4.22,
+        "iot_1": -5.01
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 4.22,
+        "iot_1": -5.01
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 362.2,
+        "iot_1": 362.2
+      }
+    },
+    {
+      "step": 15,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 5.08,
+        "iot_1": -0.44
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 5.08,
+        "iot_1": -0.44
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 352.3,
+        "iot_1": 352.3
+      }
+    },
+    {
+      "step": 16,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 8.41,
+        "iot_1": -0.88
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 8.41,
+        "iot_1": -0.88
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 342.3,
+        "iot_1": 342.3
+      }
+    },
+    {
+      "step": 17,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 8.25,
+        "iot_1": 0.08
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 8.25,
+        "iot_1": 0.08
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 332.4,
+        "iot_1": 332.4
+      }
+    },
+    {
+      "step": 18,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 10.29,
+        "iot_1": -1.99
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 10.29,
+        "iot_1": -1.99
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 322.5,
+        "iot_1": 322.5
+      }
+    },
+    {
+      "step": 19,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 10.46,
+        "iot_1": 1.61
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 10.46,
+        "iot_1": 1.61
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 312.6,
+        "iot_1": 312.6
+      }
+    },
+    {
+      "step": 20,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 10.42,
+        "iot_1": 1.46
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 10.42,
+        "iot_1": 1.46
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 302.7,
+        "iot_1": 302.7
+      }
+    },
+    {
+      "step": 21,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 8.03,
+        "iot_1": 0.58
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 8.03,
+        "iot_1": 0.58
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 292.7,
+        "iot_1": 292.7
+      }
+    },
+    {
+      "step": 22,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 10.46,
+        "iot_1": 1.2
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 10.46,
+        "iot_1": 1.2
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 282.8,
+        "iot_1": 282.8
+      }
+    },
+    {
+      "step": 23,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 11.68,
+        "iot_1": 2.9
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 11.68,
+        "iot_1": 2.9
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 272.9,
+        "iot_1": 272.9
+      }
+    },
+    {
+      "step": 24,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 8.0,
+        "iot_1": 6.72
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 8.0,
+        "iot_1": 6.72
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 263.1,
+        "iot_1": 263.1
+      }
+    },
+    {
+      "step": 25,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 9.57,
+        "iot_1": 4.47
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 9.57,
+        "iot_1": 4.47
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 253.2,
+        "iot_1": 253.2
+      }
+    },
+    {
+      "step": 26,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 11.15,
+        "iot_1": 5.41
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 11.15,
+        "iot_1": 5.41
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 243.3,
+        "iot_1": 243.3
+      }
+    },
+    {
+      "step": 27,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 8.7,
+        "iot_1": 5.09
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 8.7,
+        "iot_1": 5.09
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 233.5,
+        "iot_1": 233.5
+      }
+    },
+    {
+      "step": 28,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 8.9,
+        "iot_1": 7.9
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 8.9,
+        "iot_1": 7.9
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 223.6,
+        "iot_1": 223.6
+      }
+    },
+    {
+      "step": 29,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 9.84,
+        "iot_1": 9.11
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 9.84,
+        "iot_1": 9.11
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 213.8,
+        "iot_1": 213.8
+      }
+    },
+    {
+      "step": 30,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 10.34,
+        "iot_1": 13.89
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 10.34,
+        "iot_1": 13.89
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 204.0,
+        "iot_1": 204.0
+      }
+    },
+    {
+      "step": 31,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 15.96,
+        "iot_1": 14.11
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 15.96,
+        "iot_1": 14.11
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 194.2,
+        "iot_1": 194.2
+      }
+    },
+    {
+      "step": 32,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 14.88,
+        "iot_1": 12.14
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 14.88,
+        "iot_1": 12.14
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 184.4,
+        "iot_1": 184.4
+      }
+    },
+    {
+      "step": 33,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 11.22,
+        "iot_1": 13.04
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 11.22,
+        "iot_1": 13.04
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 174.6,
+        "iot_1": 174.6
+      }
+    },
+    {
+      "step": 34,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 11.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 11.0,
+        "iot_1": 35.72
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": true
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 164.9,
+        "iot_1": 164.9
+      }
+    },
+    {
+      "step": 35,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.4,
+        "iot_1": 35.24
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": true
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 155.2,
+        "iot_1": 155.2
+      }
+    },
+    {
+      "step": 36,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.35,
+        "iot_1": 33.28
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": true
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 145.6,
+        "iot_1": 145.6
+      }
+    },
+    {
+      "step": 37,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 22.66,
+        "iot_1": 39.12
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": true
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 136.0,
+        "iot_1": 136.0
+      }
+    },
+    {
+      "step": 38,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 24.12,
+        "iot_1": 20.6
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 126.5,
+        "iot_1": 126.5
+      }
+    },
+    {
+      "step": 39,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 24.38,
+        "iot_1": 43.43
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": true
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 117.0,
+        "iot_1": 117.0
+      }
+    },
+    {
+      "step": 40,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 29.45,
+        "iot_1": 44.76
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": true
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 107.7,
+        "iot_1": 107.7
+      }
+    },
+    {
+      "step": 41,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 25.23,
+        "iot_1": 51.46
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": true
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 98.5,
+        "iot_1": 98.5
+      }
+    },
+    {
+      "step": 42,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 26.97,
+        "iot_1": 50.84
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": true
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 89.4,
+        "iot_1": 89.4
+      }
+    },
+    {
+      "step": 43,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 25.79,
+        "iot_1": 57.85
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": true
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 80.6,
+        "iot_1": 80.6
+      }
+    },
+    {
+      "step": 44,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 25.76,
+        "iot_1": 55.22
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": true
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 72.1,
+        "iot_1": 72.1
+      }
+    },
+    {
+      "step": 45,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 48.29,
+        "iot_1": 52.87
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": true,
+        "iot_1": true
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 64.0,
+        "iot_1": 64.0
+      }
+    },
+    {
+      "step": 46,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 46.14,
+        "iot_1": 31.58
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": true,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 56.6,
+        "iot_1": 56.6
+      }
+    },
+    {
+      "step": 47,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 47.41,
+        "iot_1": 32.67
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": true,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 50.0,
+        "iot_1": 50.0
+      }
+    },
+    {
+      "step": 48,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 52.18,
+        "iot_1": 28.4
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": true,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 44.7,
+        "iot_1": 44.7
+      }
+    },
+    {
+      "step": 49,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 53.39,
+        "iot_1": 33.19
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": true,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 41.2,
+        "iot_1": 41.2
+      }
+    },
+    {
+      "step": 50,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 56.18,
+        "iot_1": 57.15
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": true,
+        "iot_1": true
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 40.0,
+        "iot_1": 40.0
+      }
+    },
+    {
+      "step": 51,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 53.69,
+        "iot_1": 58.14
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": true,
+        "iot_1": true
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 41.2,
+        "iot_1": 41.2
+      }
+    },
+    {
+      "step": 52,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 49.41,
+        "iot_1": 58.12
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": true,
+        "iot_1": true
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 44.7,
+        "iot_1": 44.7
+      }
+    },
+    {
+      "step": 53,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 48.03,
+        "iot_1": 55.07
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": true,
+        "iot_1": true
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 50.0,
+        "iot_1": 50.0
+      }
+    },
+    {
+      "step": 54,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 49.04,
+        "iot_1": 50.72
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": true,
+        "iot_1": true
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 56.6,
+        "iot_1": 56.6
+      }
+    },
+    {
+      "step": 55,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 48.94,
+        "iot_1": 36.13
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": true,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 64.0,
+        "iot_1": 64.0
+      }
+    },
+    {
+      "step": 56,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 47.16,
+        "iot_1": 31.4
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": true,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 72.1,
+        "iot_1": 72.1
+      }
+    },
+    {
+      "step": 57,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 49.86,
+        "iot_1": 32.18
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": true,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 80.6,
+        "iot_1": 80.6
+      }
+    },
+    {
+      "step": 58,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 47.63,
+        "iot_1": 32.3
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": true,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 89.4,
+        "iot_1": 89.4
+      }
+    },
+    {
+      "step": 59,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 45.63,
+        "iot_1": 36.4
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": true,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 98.5,
+        "iot_1": 98.5
+      }
+    },
+    {
+      "step": 60,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 45.88,
+        "iot_1": 35.85
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": true,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 107.7,
+        "iot_1": 107.7
+      }
+    },
+    {
+      "step": 61,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 45.6,
+        "iot_1": 29.42
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": true,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 117.0,
+        "iot_1": 117.0
+      }
+    },
+    {
+      "step": 62,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 43.73,
+        "iot_1": 31.48
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": true,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 126.5,
+        "iot_1": 126.5
+      }
+    },
+    {
+      "step": 63,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 44.75,
+        "iot_1": 26.18
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": true,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 136.0,
+        "iot_1": 136.0
+      }
+    },
+    {
+      "step": 64,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 45.4,
+        "iot_1": 22.66
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": true,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 145.6,
+        "iot_1": 145.6
+      }
+    },
+    {
+      "step": 65,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 13.77
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 41.66,
+        "iot_1": 13.77
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": true,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 155.2,
+        "iot_1": 155.2
+      }
+    },
+    {
+      "step": 66,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 8.82,
+        "iot_1": 14.94
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 8.82,
+        "iot_1": 14.94
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 164.9,
+        "iot_1": 164.9
+      }
+    },
+    {
+      "step": 67,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 4.15,
+        "iot_1": 9.78
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 4.15,
+        "iot_1": 9.78
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 174.6,
+        "iot_1": 174.6
+      }
+    },
+    {
+      "step": 68,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 5.08,
+        "iot_1": 6.72
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 5.08,
+        "iot_1": 6.72
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 184.4,
+        "iot_1": 184.4
+      }
+    },
+    {
+      "step": 69,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 0.61,
+        "iot_1": 8.14
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 0.61,
+        "iot_1": 8.14
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 194.2,
+        "iot_1": 194.2
+      }
+    },
+    {
+      "step": 70,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 38.33,
+        "iot_1": 33.1
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": true,
+        "iot_1": true
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 204.0,
+        "iot_1": 204.0
+      }
+    },
+    {
+      "step": 71,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 3.71,
+        "iot_1": 7.63
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 3.71,
+        "iot_1": 7.63
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 213.8,
+        "iot_1": 213.8
+      }
+    },
+    {
+      "step": 72,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 7.81,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 7.81,
+        "iot_1": 34.28
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": true
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 223.6,
+        "iot_1": 223.6
+      }
+    },
+    {
+      "step": 73,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 18.0,
+        "iot_1": 18.0
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 40.4,
+        "iot_1": 38.02
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": true,
+        "iot_1": true
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 233.5,
+        "iot_1": 233.5
+      }
+    },
+    {
+      "step": 74,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 9.44,
+        "iot_1": 8.61
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 9.44,
+        "iot_1": 8.61
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 243.3,
+        "iot_1": 243.3
+      }
+    },
+    {
+      "step": 75,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 8.62,
+        "iot_1": 4.21
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 8.62,
+        "iot_1": 4.21
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 253.2,
+        "iot_1": 253.2
+      }
+    },
+    {
+      "step": 76,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 7.12,
+        "iot_1": 7.27
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 7.12,
+        "iot_1": 7.27
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 263.1,
+        "iot_1": 263.1
+      }
+    },
+    {
+      "step": 77,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 9.51,
+        "iot_1": 6.87
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 9.51,
+        "iot_1": 6.87
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 272.9,
+        "iot_1": 272.9
+      }
+    },
+    {
+      "step": 78,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 7.11,
+        "iot_1": 7.24
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 7.11,
+        "iot_1": 7.24
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 282.8,
+        "iot_1": 282.8
+      }
+    },
+    {
+      "step": 79,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 1.68,
+        "iot_1": 2.49
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 1.68,
+        "iot_1": 2.49
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 292.7,
+        "iot_1": 292.7
+      }
+    },
+    {
+      "step": 80,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 6.59,
+        "iot_1": -6.04
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 6.59,
+        "iot_1": -6.04
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 302.7,
+        "iot_1": 302.7
+      }
+    },
+    {
+      "step": 81,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 6.6,
+        "iot_1": 1.83
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 6.6,
+        "iot_1": 1.83
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 312.6,
+        "iot_1": 312.6
+      }
+    },
+    {
+      "step": 82,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 4.99,
+        "iot_1": -1.28
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 4.99,
+        "iot_1": -1.28
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 322.5,
+        "iot_1": 322.5
+      }
+    },
+    {
+      "step": 83,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 4.89,
+        "iot_1": 9.1
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 4.89,
+        "iot_1": 9.1
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 332.4,
+        "iot_1": 332.4
+      }
+    },
+    {
+      "step": 84,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 4.97,
+        "iot_1": 7.63
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 4.97,
+        "iot_1": 7.63
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 342.3,
+        "iot_1": 342.3
+      }
+    },
+    {
+      "step": 85,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -1.82,
+        "iot_1": 10.21
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -1.82,
+        "iot_1": 10.21
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 352.3,
+        "iot_1": 352.3
+      }
+    },
+    {
+      "step": 86,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -5.78,
+        "iot_1": 1.57
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -5.78,
+        "iot_1": 1.57
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 362.2,
+        "iot_1": 362.2
+      }
+    },
+    {
+      "step": 87,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -7.61,
+        "iot_1": 0.71
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -7.61,
+        "iot_1": 0.71
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 372.2,
+        "iot_1": 372.2
+      }
+    },
+    {
+      "step": 88,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -3.62,
+        "iot_1": 3.05
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -3.62,
+        "iot_1": 3.05
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 382.1,
+        "iot_1": 382.1
+      }
+    },
+    {
+      "step": 89,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -10.77,
+        "iot_1": 4.08
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -10.77,
+        "iot_1": 4.08
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 392.0,
+        "iot_1": 392.0
+      }
+    },
+    {
+      "step": 90,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -10.22,
+        "iot_1": 5.11
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -10.22,
+        "iot_1": 5.11
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 402.0,
+        "iot_1": 402.0
+      }
+    },
+    {
+      "step": 91,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -6.6,
+        "iot_1": 3.26
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -6.6,
+        "iot_1": 3.26
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 411.9,
+        "iot_1": 411.9
+      }
+    },
+    {
+      "step": 92,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -4.53,
+        "iot_1": 2.88
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -4.53,
+        "iot_1": 2.88
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 421.9,
+        "iot_1": 421.9
+      }
+    },
+    {
+      "step": 93,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -2.37,
+        "iot_1": -0.31
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -2.37,
+        "iot_1": -0.31
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 431.9,
+        "iot_1": 431.9
+      }
+    },
+    {
+      "step": 94,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -9.67,
+        "iot_1": -6.03
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -9.67,
+        "iot_1": -6.03
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 441.8,
+        "iot_1": 441.8
+      }
+    },
+    {
+      "step": 95,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -9.1,
+        "iot_1": -7.88
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -9.1,
+        "iot_1": -7.88
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 451.8,
+        "iot_1": 451.8
+      }
+    },
+    {
+      "step": 96,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -8.21,
+        "iot_1": -2.81
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -8.21,
+        "iot_1": -2.81
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 461.7,
+        "iot_1": 461.7
+      }
+    },
+    {
+      "step": 97,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 0.09,
+        "iot_1": 2.64
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 0.09,
+        "iot_1": 2.64
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 471.7,
+        "iot_1": 471.7
+      }
+    },
+    {
+      "step": 98,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -3.12,
+        "iot_1": 4.06
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": -3.12,
+        "iot_1": 4.06
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 481.7,
+        "iot_1": 481.7
+      }
+    },
+    {
+      "step": 99,
+      "ceiling_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 0.37,
+        "iot_1": -1.07
+      },
+      "raw_db": {
+        "fwa_1": 2.23,
+        "fwa_2": 8.94,
+        "mtc_1": 0.37,
+        "iot_1": -1.07
+      },
+      "los": {
+        "fwa_1": false,
+        "fwa_2": false,
+        "mtc_1": false,
+        "iot_1": false
+      },
+      "distance_m": {
+        "fwa_1": 192.1,
+        "fwa_2": 403.1,
+        "mtc_1": 491.6,
+        "iot_1": 491.6
+      }
+    }
+  ]
+}
